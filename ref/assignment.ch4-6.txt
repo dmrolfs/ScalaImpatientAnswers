@@ -1,0 +1,33 @@
+Chapter 4: Maps and Tuples
+
+1. Set up a map of prices for a number of gizmos that you covet. Then produce a second map with the same keys and the prices at a 10 percent discount.
+
+6. De ne a linked hash map that maps "Monday" to java.util.Calendar.MONDAY, and similarly for the other weekdays. Demonstrate that the elements are visited in insertion order.
+
+8. Write a function minmax(values: Array[Int]) that returns a pair containing the smallest and the largest values in the array.
+
+9. Write a function lteqgt(values: Array[Int], v: Int) that returns a triple containing the counts of values less than v, equal to v, and greater than v.
+
+10. What happens when you zip together two strings, such as "Hello".zip("World")? Come up with a plausible use case.
+
+
+Chapter 5: Classes
+
+3. Write a class Time with read-only properties hours and minutes and a method before(other: Time): Boolean that checks whether this time comes before the other. A Time object should be constructed as new Time(hrs, min), where hrs is in military time format (between 0 and 23).
+
+4. Reimplement the Time class from the preceding exercise so that the internal representation is the number of minutes since midnight (between 0 and 24 × 60 – 1). Do not change the public interface. That is, client code should be unaffected by your change.
+
+10. Consider the class
+class Employee(val name: String, var salary: Double) { 
+  def this() { this("John Q. Public", 0.0) }
+}
+Rewrite it to use explicit fields and a default primary constructor. Which form do you prefer? Why?
+
+
+Chapter 6: Objects
+
+1. Write an object Conversions with methods inchesToCentimeters, gallonsToLiters, and milesToKilometers.
+
+2. The preceding problem wasn’t very object-oriented. Provide a general superclass UnitConversion and define objects InchesToCentimeters, GallonsToLiters, and MilesToKilometers that extend it.
+
+8. Write an enumeration describing the eight corners of the RGB color cube. As IDs, use the color values (for example, 0xff0000 for Red).
