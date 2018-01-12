@@ -31,7 +31,7 @@ object Exercises01_02 extends App {
   println( s"""Ex01: 17.3gal = ${Conversions01.gallonsToLiters(17.3)}l""")
   println( s"""Ex01: 60mi = ${Conversions01.milesToKilometers(60.0)}km""")
 
-
+InchesToCentimeters.apply( 12.5 )
   println( s"""Ex02: 12.5in = ${InchesToCentimeters(12.5)}cm""")
   println( s"""Ex02: 17.3gal = ${GallonsToLiters(17.3)}l""")
   println( s"""Ex02: 60mi = ${MilesToKilometers(60.0)}km""")

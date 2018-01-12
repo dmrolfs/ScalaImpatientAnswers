@@ -18,7 +18,7 @@ class Time03( val hours: Int, val minutes: Int ) {
  * minutes since midnight (between 0 and 24 × 60 – 1). Do not change the public interface. That is, client code should
  * be unaffected by your change.
  */
-class Time04( private val minutesFromMidnight: Int = 0 ) {
+class Time04( private[ch05] val minutesFromMidnight: Int = 0 ) {
   def this( hours: Int, minutes: Int ) = this( hours * 60 + minutes )
   def hours: Int = minutesFromMidnight / 60 // all Ints so remainder is discarded
   def minutes: Int = minutesFromMidnight % 60
