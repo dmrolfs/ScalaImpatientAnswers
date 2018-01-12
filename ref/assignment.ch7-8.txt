@@ -1,0 +1,23 @@
+Chapter 7
+
+4. Why do you think the Scala language designers provided the package object syntax instead of simply letting you add functions and variables to a package?
+
+5. What is the meaning of private[com] def giveRaise(rate: Double)? Is it useful?
+
+6. Write a program that copies all elements from a Java hash map into a Scala
+hash map. Use imports to rename both classes.
+
+7. In the preceding exercise, move all imports into the innermost scope possible.
+
+
+Chapter 8
+
+5. Design a class Point whose x and y coordinate values can be provided in a constructor. Provide a subclass LabeledPoint whose constructor takes a label value and x and y coordinates, such as
+
+new LabeledPoint("Black Thursday", 1929, 230.07)
+
+6. Design an abstract class Shape with an abstract method centerPoint and subclasses Rectangle and Circle. Provide appropriate constructors for the subclasses and override the centerPoint method in each subclass.
+
+7. Provide a class Square that extends Rectangle and has three constructors: one that constructs a square with a given corner point and width, one that constructs a square with corner (0, 0) and a given width, and one that constructs a square with corner (0, 0) and width 0.
+
+
